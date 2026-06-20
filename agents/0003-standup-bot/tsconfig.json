@@ -1,0 +1,4 @@
+{
+  "extends": "@ship-eve/typescript-config/base.json",
+  "include": ["agent/**/*.ts", "lib/**/*.ts", ".eve/**/*.d.ts"]
+}

@@ -9,6 +9,7 @@ A growing collection of runnable eve agents — clone them, run them locally, an
 | ---- | ------------------------------------------- | --------------------------------------- | ----------------------- |
 | 0001 | [weather](./agents/0001-weather/)           | Weather assistant with a typed tool     | tools, channels         |
 | 0002 | [meal-planner](./agents/0002-meal-planner/) | Single-meal planner with allergen skill | tools, channels, skills |
+| 0003 | [standup-bot](./agents/0003-standup-bot/) | Personal standup from GitHub activity | tools, channels, skills, connections |
 
 
 ## Skills
