@@ -7,6 +7,7 @@ Living index of shipped agents. Update this when adding a new agent — it feeds
 | 0001 | weather | Weather assistant with mock `get_weather` tool | `tools`, `channels` |
 | 0002 | meal-planner | Single-meal planner with mock catalog and allergen skill | `tools`, `channels`, `skills` |
 | 0003 | standup-bot | Personal standup from GitHub PRs and issues | `tools`, `channels`, `skills`, `connections` |
+| 0004 | csv-analyst | CSV data Q&A with Python sandbox analysis | `tools`, `channels`, `skills`, `sandbox` |
 
 ## Eve surfaces key
 

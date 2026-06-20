@@ -1,0 +1,136 @@
+order_id,region,product,quantity,unit_price,order_date
+1001,East,USB-C Hub,4,32.00,2024-01-01
+1002,South,Wireless Mouse,2,29.00,2024-01-03
+1003,West,Monitor Stand,5,56.00,2024-01-03
+1004,Central,Monitor Stand,3,43.00,2024-01-05
+1005,West,Keyboard,1,70.00,2024-01-07
+1006,East,Headphones,4,67.00,2024-01-07
+1007,South,Headphones,2,64.00,2024-01-09
+1008,East,Docking Station,5,81.00,2024-01-11
+1009,Central,Laptop Sleeve,3,78.00,2024-01-11
+1010,West,Laptop Sleeve,1,105.00,2024-01-13
+1011,Central,USB-C Hub,4,92.00,2024-01-15
+1012,South,Desk Lamp,2,99.00,2024-01-15
+1013,East,Desk Lamp,5,116.00,2024-01-17
+1014,South,Monitor Stand,3,113.00,2024-01-19
+1015,West,Webcam,1,140.00,2024-01-19
+1016,Central,Webcam,4,127.00,2024-01-21
+1017,West,Headphones,2,154.00,2024-01-23
+1018,East,Cable Kit,5,151.00,2024-01-23
+1019,South,Cable Kit,3,148.00,2024-01-25
+1020,East,Laptop Sleeve,1,165.00,2024-01-27
+1021,Central,Wireless Mouse,4,162.00,2024-01-27
+1022,West,Wireless Mouse,2,189.00,2024-01-29
+1023,Central,Desk Lamp,5,176.00,2024-01-31
+1024,South,Keyboard,3,183.00,2024-01-31
+1025,East,Keyboard,1,200.00,2024-02-02
+1026,South,Webcam,4,197.00,2024-02-04
+1027,West,Docking Station,2,224.00,2024-02-04
+1028,Central,Docking Station,5,211.00,2024-02-06
+1029,West,Cable Kit,3,38.00,2024-02-08
+1030,East,USB-C Hub,1,35.00,2024-02-08
+1031,South,USB-C Hub,4,32.00,2024-02-10
+1032,East,Wireless Mouse,2,49.00,2024-02-12
+1033,Central,Monitor Stand,5,46.00,2024-02-12
+1034,West,Monitor Stand,3,73.00,2024-02-14
+1035,Central,Keyboard,1,60.00,2024-02-16
+1036,South,Headphones,4,67.00,2024-02-16
+1037,East,Headphones,2,84.00,2024-02-18
+1038,South,Docking Station,5,81.00,2024-02-20
+1039,West,Laptop Sleeve,3,108.00,2024-02-20
+1040,Central,Laptop Sleeve,1,95.00,2024-02-22
+1041,West,USB-C Hub,4,122.00,2024-02-24
+1042,East,Desk Lamp,2,119.00,2024-02-24
+1043,South,Desk Lamp,5,116.00,2024-02-26
+1044,East,Monitor Stand,3,133.00,2024-02-28
+1045,Central,Webcam,1,130.00,2024-02-28
+1046,West,Webcam,4,157.00,2024-03-01
+1047,Central,Headphones,2,144.00,2024-03-03
+1048,South,Cable Kit,5,151.00,2024-03-03
+1049,East,Cable Kit,3,168.00,2024-03-05
+1050,South,Laptop Sleeve,1,165.00,2024-03-07
+1051,West,Wireless Mouse,4,192.00,2024-03-07
+1052,Central,Wireless Mouse,2,179.00,2024-03-09
+1053,West,Desk Lamp,5,206.00,2024-03-10
+1054,East,Keyboard,3,203.00,2024-03-10
+1055,South,Keyboard,1,200.00,2024-03-12
+1056,East,Webcam,4,217.00,2024-03-14
+1057,Central,Docking Station,2,214.00,2024-03-14
+1058,West,Docking Station,5,41.00,2024-03-16
+1059,Central,Cable Kit,3,28.00,2024-03-18
+1060,South,USB-C Hub,1,35.00,2024-03-18
+1061,East,USB-C Hub,4,52.00,2024-03-20
+1062,South,Wireless Mouse,2,49.00,2024-03-22
+1063,West,Monitor Stand,5,76.00,2024-03-22
+1064,Central,Monitor Stand,3,63.00,2024-03-24
+1065,West,Keyboard,1,90.00,2024-03-26
+1066,East,Headphones,4,87.00,2024-03-26
+1067,South,Headphones,2,84.00,2024-03-28
+1068,East,Docking Station,5,101.00,2024-03-30
+1069,Central,Laptop Sleeve,3,98.00,2024-03-30
+1070,West,Laptop Sleeve,1,125.00,2024-04-01
+1071,Central,USB-C Hub,4,112.00,2024-04-03
+1072,South,Desk Lamp,2,119.00,2024-04-03
+1073,East,Desk Lamp,5,136.00,2024-04-05
+1074,South,Monitor Stand,3,133.00,2024-04-07
+1075,West,Webcam,1,160.00,2024-04-07
+1076,Central,Webcam,4,147.00,2024-04-09
+1077,West,Headphones,2,174.00,2024-04-11
+1078,East,Cable Kit,5,171.00,2024-04-11
+1079,South,Cable Kit,3,168.00,2024-04-13
+1080,East,Laptop Sleeve,1,185.00,2024-04-15
+1081,Central,Wireless Mouse,4,182.00,2024-04-15
+1082,West,Wireless Mouse,2,209.00,2024-04-17
+1083,Central,Desk Lamp,5,196.00,2024-04-19
+1084,South,Keyboard,3,203.00,2024-04-19
+1085,East,Keyboard,1,220.00,2024-04-21
+1086,South,Webcam,4,17.00,2024-04-23
+1087,West,Docking Station,2,44.00,2024-04-23
+1088,Central,Docking Station,5,31.00,2024-04-25
+1089,West,Cable Kit,3,58.00,2024-04-27
+1090,East,USB-C Hub,1,55.00,2024-04-27
+1091,South,USB-C Hub,4,52.00,2024-04-29
+1092,East,Wireless Mouse,2,69.00,2024-05-01
+1093,Central,Monitor Stand,5,66.00,2024-05-01
+1094,West,Monitor Stand,3,93.00,2024-05-03
+1095,Central,Keyboard,1,80.00,2024-05-05
+1096,South,Headphones,4,87.00,2024-05-05
+1097,East,Headphones,2,104.00,2024-05-07
+1098,South,Docking Station,5,101.00,2024-05-09
+1099,West,Laptop Sleeve,3,128.00,2024-05-09
+1100,Central,Laptop Sleeve,1,115.00,2024-05-11
+1101,West,USB-C Hub,4,142.00,2024-05-13
+1102,East,Desk Lamp,2,139.00,2024-05-13
+1103,South,Desk Lamp,5,136.00,2024-05-15
+1104,East,Monitor Stand,3,153.00,2024-05-17
+1105,Central,Webcam,1,150.00,2024-05-17
+1106,West,Webcam,4,177.00,2024-05-19
+1107,Central,Headphones,2,164.00,2024-05-21
+1108,South,Cable Kit,5,171.00,2024-05-21
+1109,East,Cable Kit,3,188.00,2024-05-23
+1110,South,Laptop Sleeve,1,185.00,2024-05-25
+1111,West,Wireless Mouse,4,212.00,2024-05-25
+1112,Central,Wireless Mouse,2,199.00,2024-05-27
+1113,West,Desk Lamp,5,226.00,2024-05-29
+1114,East,Keyboard,3,223.00,2024-05-29
+1115,South,Keyboard,1,20.00,2024-05-31
+1116,East,Webcam,4,37.00,2024-06-02
+1117,Central,Docking Station,2,34.00,2024-06-02
+1118,West,Docking Station,5,61.00,2024-06-04
+1119,Central,Cable Kit,3,48.00,2024-06-06
+1120,South,USB-C Hub,1,55.00,2024-06-06
+1121,East,USB-C Hub,4,72.00,2024-06-08
+1122,South,Wireless Mouse,2,69.00,2024-06-10
+1123,West,Monitor Stand,5,96.00,2024-06-10
+1124,Central,Monitor Stand,3,83.00,2024-06-12
+1125,West,Keyboard,1,110.00,2024-06-14
+1126,East,Headphones,4,107.00,2024-06-14
+1127,South,Headphones,2,104.00,2024-06-16
+1128,East,Docking Station,5,121.00,2024-06-18
+1129,Central,Laptop Sleeve,3,118.00,2024-06-18
+1130,West,Laptop Sleeve,1,145.00,2024-06-20
+1131,Central,USB-C Hub,4,132.00,2024-06-22
+1132,South,Desk Lamp,2,139.00,2024-06-22
+1133,East,Desk Lamp,5,156.00,2024-06-24
+1134,South,Monitor Stand,3,153.00,2024-06-26
+1135,West,Webcam,1,180.00,2024-06-26
