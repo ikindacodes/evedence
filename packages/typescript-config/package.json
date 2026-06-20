@@ -1,0 +1,8 @@
+{
+  "name": "@evedence/typescript-config",
+  "private": true,
+  "exports": {
+    "./base.json": "./base.json",
+    "./eve.json": "./eve.json"
+  }
+}

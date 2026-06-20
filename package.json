@@ -1,0 +1,22 @@
+{
+  "name": "evedence",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "start": "turbo run start",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.4"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "pnpm": {
+    "overrides": {
+      "ai": "7.0.0-beta.178"
+    }
+  }
+}

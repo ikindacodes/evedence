@@ -1,0 +1,27 @@
+{
+  "name": "@evedence/0001-weather",
+  "private": true,
+  "type": "module",
+  "imports": {
+    "#*": "./agent/*"
+  },
+  "scripts": {
+    "build": "eve build",
+    "dev": "eve dev",
+    "start": "eve start",
+    "typecheck": "tsgo"
+  },
+  "dependencies": {
+    "ai": "catalog:",
+    "eve": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@evedence/typescript-config": "workspace:*",
+    "@types/node": "catalog:",
+    "@typescript/native-preview": "catalog:"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}

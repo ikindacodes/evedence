@@ -1,0 +1,4 @@
+{
+  "extends": "@evedence/typescript-config/base.json",
+  "include": ["agent/**/*.ts", ".eve/**/*.d.ts"]
+}
