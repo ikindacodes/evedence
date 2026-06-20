@@ -1,17 +1,19 @@
 # ship-eve
 
-[![skills.sh](https://skills.sh/b/ikindacodes/ship-eve)](https://skills.sh/ikindacodes/ship-eve)
-
 A growing collection of runnable eve agents — clone them, run them locally, and learn from real-world examples that grow in complexity over time.
 
 ## Agents
 
-| # | Slug | Summary | Eve surfaces |
-|---|------|---------|--------------|
-| 0001 | [weather](./agents/0001-weather/) | Weather assistant with a typed tool | tools, channels |
+
+| #    | Slug                                        | Summary                                 | Eve surfaces            |
+| ---- | ------------------------------------------- | --------------------------------------- | ----------------------- |
+| 0001 | [weather](./agents/0001-weather/)           | Weather assistant with a typed tool     | tools, channels         |
 | 0002 | [meal-planner](./agents/0002-meal-planner/) | Single-meal planner with allergen skill | tools, channels, skills |
 
+
 ## Skills
+
+[skills.sh](https://skills.sh/ikindacodes/ship-eve)
 
 Install the **create-agent** skill to scaffold new eve agents through a guided design interview:
 
