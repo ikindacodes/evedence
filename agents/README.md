@@ -5,6 +5,7 @@ Living index of shipped agents. Update this when adding a new agent — it feeds
 | # | Slug | Summary | Eve surfaces |
 |---|------|---------|--------------|
 | 0001 | weather | Weather assistant with mock `get_weather` tool | `tools`, `channels` |
+| 0002 | meal-planner | Single-meal planner with mock catalog and allergen skill | `tools`, `channels`, `skills` |
 
 ## Eve surfaces key
 
