@@ -140,6 +140,28 @@ importers:
         specifier: 'catalog:'
         version: 7.0.0-dev.20260523.1
 
+  agents/0006-research-router:
+    dependencies:
+      ai:
+        specifier: 7.0.0-beta.178
+        version: 7.0.0-beta.178(zod@4.4.3)
+      eve:
+        specifier: 'catalog:'
+        version: 0.11.7(ai@7.0.0-beta.178(zod@4.4.3))
+      zod:
+        specifier: 'catalog:'
+        version: 4.4.3
+    devDependencies:
+      '@ship-eve/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.13.2
+      '@typescript/native-preview':
+        specifier: 'catalog:'
+        version: 7.0.0-dev.20260523.1
+
   agents/0007-support-bot:
     dependencies:
       ai:
