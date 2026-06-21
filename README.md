@@ -7,15 +7,15 @@ A growing collection of runnable eve agents — clone them, run them locally, an
 ## Agents
 
 
-| #    | Slug                                        | Summary                                 | Eve surfaces            |
-| ---- | ------------------------------------------- | --------------------------------------- | ----------------------- |
-| 0001 | [weather](./agents/0001-weather/)           | Weather assistant with a typed tool     | tools, channels         |
-| 0002 | [meal-planner](./agents/0002-meal-planner/) | Single-meal planner with allergen skill | tools, channels, skills |
-| 0003 | [standup-bot](./agents/0003-standup-bot/) | Personal standup from GitHub activity | tools, channels, skills, connections |
-| 0004 | [csv-analyst](./agents/0004-csv-analyst/) | CSV data Q&A with Python sandbox analysis | tools, channels, skills, sandbox |
-| 0005 | [digest-bot](./agents/0005-digest-bot/) | Weekday tech digest from a single RSS feed | tools, channels, skills, schedules |
-| 0006 | [research-router](./agents/0006-research-router/) | Research brief via researcher and writer subagents | tools, channels, skills, subagents |
-| 0007 | [support-bot](./agents/0007-support-bot/) | TaskFlow support Q&A with regression eval suite | tools, channels, skills, evals |
+| #    | Slug                                        | Summary                                 | Eve surfaces            | Eve capabilities demonstrated |
+| ---- | ------------------------------------------- | --------------------------------------- | ----------------------- | ----------------------------- |
+| 0001 | [weather](./agents/0001-weather/)           | Weather assistant with a typed tool     | tools, channels         | default harness, typed tool, HTTP channel |
+| 0002 | [meal-planner](./agents/0002-meal-planner/) | Single-meal planner with allergen skill | tools, channels, skills | context control (load-on-demand skills) |
+| 0003 | [standup-bot](./agents/0003-standup-bot/) | Personal standup from GitHub activity | tools, channels, skills, connections | MCP connections, live external API |
+| 0004 | [csv-analyst](./agents/0004-csv-analyst/) | CSV data Q&A with Python sandbox analysis | tools, channels, skills, sandbox | sandbox execution |
+| 0005 | [digest-bot](./agents/0005-digest-bot/) | Weekday tech digest from a single RSS feed | tools, channels, skills, schedules | schedules (cron) |
+| 0006 | [research-router](./agents/0006-research-router/) | Research brief via researcher and writer subagents | tools, channels, skills, subagents | subagent delegation, structured output |
+| 0007 | [support-bot](./agents/0007-support-bot/) | TaskFlow support Q&A with regression eval suite | tools, channels, skills, evals | evals (regression suite) |
 
 
 ## Skills

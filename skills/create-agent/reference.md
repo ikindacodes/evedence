@@ -32,6 +32,13 @@ Write `agent/EVE-BRIEF.md` with this structure. Replace bracketed placeholders; 
 | sandbox | yes/no | |
 | evals | yes/no | |
 
+## Eve capabilities demonstrated
+
+List runtime and framework behaviors this agent showcases (not just folders). Use labels from the capabilities key in `agents/README.md`. Example: `durable state (defineState)`, `human-in-the-loop (needsApproval)`.
+
+- [primary capability]
+- [secondary capabilities, if any]
+
 ## Tools & connections
 | File | Purpose | Inputs | Returns | Data source | Fallback reason (if mock) |
 |------|---------|--------|---------|-------------|---------------------------|
@@ -95,7 +102,7 @@ When the repo already contains eve agents (look for directories with `agent/agen
 2. **Mirror** — match scripts, dependency versions, path aliases, and shared config extends.
 3. **Place** — create the new agent alongside siblings using the repo's existing folder convention.
 4. **Register** — add the package to the workspace manifest if the repo uses one.
-5. **Index** — update any agent catalog the repo maintains (README table, docs index).
+5. **Index** — update any agent catalog the repo maintains. In ship-eve, update `agents/README.md` and the root `README.md` with both **Eve surfaces** and **Eve capabilities demonstrated**.
 
 Do not invent a monorepo layout. Copy what the repo already does.
 

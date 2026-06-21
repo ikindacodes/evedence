@@ -140,7 +140,7 @@ Implement only surfaces listed in the brief. For each surface, read the matching
 
 If the repo already hosts multiple eve agents under a shared parent directory:
 
-1. Update any existing agent index or catalog the repo maintains (README table, docs index, etc.)
+1. Update any existing agent index or catalog the repo maintains — for ship-eve, add a row to both `agents/README.md` and the root `README.md` with **Eve surfaces** and **Eve capabilities demonstrated** (use labels from the capabilities key in `agents/README.md`)
 2. Register the new package in the workspace manifest (`pnpm-workspace.yaml`, `package.json` workspaces, etc.)
 3. Match package naming and shared config from sibling agents
 
