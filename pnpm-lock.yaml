@@ -13,8 +13,8 @@ catalogs:
       specifier: 7.0.0-dev.20260523.1
       version: 7.0.0-dev.20260523.1
     eve:
-      specifier: ^0.11.6
-      version: 0.11.7
+      specifier: ^0.12.0
+      version: 0.12.0
     zod:
       specifier: 4.4.3
       version: 4.4.3
@@ -37,7 +37,7 @@ importers:
         version: 7.0.0-beta.178(zod@4.4.3)
       eve:
         specifier: 'catalog:'
-        version: 0.11.7(ai@7.0.0-beta.178(zod@4.4.3))
+        version: 0.12.0(ai@7.0.0-beta.178(zod@4.4.3))
       zod:
         specifier: 'catalog:'
         version: 4.4.3
@@ -59,7 +59,7 @@ importers:
         version: 7.0.0-beta.178(zod@4.4.3)
       eve:
         specifier: 'catalog:'
-        version: 0.11.7(ai@7.0.0-beta.178(zod@4.4.3))
+        version: 0.12.0(ai@7.0.0-beta.178(zod@4.4.3))
       zod:
         specifier: 'catalog:'
         version: 4.4.3
@@ -81,7 +81,7 @@ importers:
         version: 7.0.0-beta.178(zod@4.4.3)
       eve:
         specifier: 'catalog:'
-        version: 0.11.7(ai@7.0.0-beta.178(zod@4.4.3))
+        version: 0.12.0(ai@7.0.0-beta.178(zod@4.4.3))
       zod:
         specifier: 'catalog:'
         version: 4.4.3
@@ -103,7 +103,7 @@ importers:
         version: 7.0.0-beta.178(zod@4.4.3)
       eve:
         specifier: 'catalog:'
-        version: 0.11.7(ai@7.0.0-beta.178(zod@4.4.3))
+        version: 0.12.0(ai@7.0.0-beta.178(zod@4.4.3))
       zod:
         specifier: 'catalog:'
         version: 4.4.3
@@ -125,7 +125,7 @@ importers:
         version: 7.0.0-beta.178(zod@4.4.3)
       eve:
         specifier: 'catalog:'
-        version: 0.11.7(ai@7.0.0-beta.178(zod@4.4.3))
+        version: 0.12.0(ai@7.0.0-beta.178(zod@4.4.3))
       zod:
         specifier: 'catalog:'
         version: 4.4.3
@@ -147,7 +147,7 @@ importers:
         version: 7.0.0-beta.178(zod@4.4.3)
       eve:
         specifier: 'catalog:'
-        version: 0.11.7(ai@7.0.0-beta.178(zod@4.4.3))
+        version: 0.12.0(ai@7.0.0-beta.178(zod@4.4.3))
       zod:
         specifier: 'catalog:'
         version: 4.4.3
@@ -169,7 +169,7 @@ importers:
         version: 7.0.0-beta.178(zod@4.4.3)
       eve:
         specifier: 'catalog:'
-        version: 0.11.7(ai@7.0.0-beta.178(zod@4.4.3))
+        version: 0.12.0(ai@7.0.0-beta.178(zod@4.4.3))
       zod:
         specifier: 'catalog:'
         version: 4.4.3
@@ -466,8 +466,8 @@ packages:
       wrangler:
         optional: true
 
-  eve@0.11.7:
-    resolution: {integrity: sha512-Nwc4dt0Q6vwb0B8eVHjbTvpkYAng8A/cbJwcyFra5agdwiPw2Rl7HlBoilVceSBqdkOuOPFXB+EdyJHdrgylZQ==}
+  eve@0.12.0:
+    resolution: {integrity: sha512-SKlO6mqY4Eo24QGBAnxNkKORFALQhBQefU58k9kqHnmKkD5QXvaHiaxaJFet1Pu646mMtW3VxbcxU9fQt/dkPg==}
     engines: {node: '>=24'}
     hasBin: true
     peerDependencies:
@@ -865,7 +865,7 @@ snapshots:
       httpxy: 0.5.3
       srvx: 0.11.17
 
-  eve@0.11.7(ai@7.0.0-beta.178(zod@4.4.3)):
+  eve@0.12.0(ai@7.0.0-beta.178(zod@4.4.3)):
     dependencies:
       ai: 7.0.0-beta.178(zod@4.4.3)
       nitro: 3.0.260610-beta

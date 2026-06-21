@@ -67,7 +67,7 @@ Answers TaskFlow product-support questions from bundled docs, with a regression 
 ## Project location
 
 - **Path:** `agents/0007-support-bot/`
-- **Package name:** `0007-support-bot`
+- **Package name:** `0007-support-bot` (unscoped — required until [vercel/eve#168](https://github.com/vercel/eve/pull/168) ships)
 
 ## Open questions
 

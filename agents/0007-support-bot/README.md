@@ -117,7 +117,7 @@ DOCS_PATH=./my-docs pnpm dev
 
 **`Expected eval target "@ship-eve/…" but "0007-support-bot" is responding`**
 
-`eve eval` checks that the server identity matches `package.json` `name`. This agent uses `"name": "0007-support-bot"` (folder name) so eval and dev agree. Do not use a scoped name like `@ship-eve/0007-support-bot` here.
+`eve eval` compares against full `package.json` `name`, but the dev server reports the folder basename. Until [vercel/eve#168](https://github.com/vercel/eve/pull/168) lands, this agent uses `"name": "0007-support-bot"` (not `@ship-eve/0007-support-bot`).
 
 **Eval failures after prompt changes**
 

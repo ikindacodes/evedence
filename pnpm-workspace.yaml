@@ -4,7 +4,7 @@ packages:
   - "packages/*"
 
 catalog:
-  eve: ^0.11.6
+  eve: ^0.12.0
   ai: 7.0.0-beta.178
   zod: 4.4.3
   "@types/node": 24.x
