@@ -64,6 +64,10 @@ List runtime and framework behaviors this agent showcases (not just folders). Us
 - **Path:** [e.g. ./my-agent or packages/support-bot]
 - **Package name:** [e.g. my-agent or @acme/support-bot]
 
+## Teaching comments
+- **Mode:** verbose (default for create-agent) — all scaffolded code includes educational comments per [reference.md#teaching-comments](reference.md#teaching-comments)
+- **Surfaces to annotate:** [list files/folders from this brief]
+
 ## Open questions
 - [none, or list anything deferred]
 ```
@@ -133,6 +137,91 @@ node_modules/eve/docs/
 | Skills, schedules, hooks, sandbox, subagents, evals | matching surface page |
 
 Also scan sibling agents in the repo for established patterns. Do not copy API calls from this skill — they may be stale. If eve is not yet installed, read the published docs at [beta.eve.dev](https://beta.eve.dev) until `node_modules/eve/docs/` is available.
+
+---
+
+---
+
+## Teaching comments
+
+Generated agent code is a **tutorial**. Comments should explain eve concepts as if the user has never built an agent before.
+
+### Goals
+
+1. **Surface literacy** — the user finishes v1 knowing what tools, channels, connections, skills, etc. are and when to use each.
+2. **Discovery model** — explain how eve finds files (path-derived tool names, folder conventions).
+3. **Turn lifecycle** — tie comments to what happens when a user sends a message (channel → agent → model → tool → response).
+4. **Docs bridge** — point to `node_modules/eve/docs/<topic>` (or [beta.eve.dev](https://beta.eve.dev)) for depth; do not duplicate entire doc pages.
+
+### Per-file pattern
+
+```typescript
+/**
+ * [Surface]: tools
+ *
+ * What this file does in one sentence.
+ *
+ * Eve concepts taught here:
+ * - Tool identity: agent/tools/get_foo.ts → tool name "get_foo"
+ * - How the model decides to call this tool (see instructions.md)
+ *
+ * Docs: node_modules/eve/docs/tools.md (adjust to actual path after reading docs)
+ */
+
+// --- Imports ---
+// Why each eve import exists and which surface it belongs to.
+
+// --- Input schema ---
+// Why tools declare schemas; how the model uses them for arguments.
+
+// --- Tool handler ---
+// What runs at call time; connections vs inline fetch; return shape the model sees.
+
+// --- Export ---
+// How eve registers this file (default export pattern from docs).
+```
+
+Adapt blocks to the surface (connections, channels, hooks, schedules, etc.).
+
+### Concepts to teach by surface
+
+| Surface | Teach in comments |
+|---------|-------------------|
+| `agent/agent.ts` | `defineAgent`, model string + AI Gateway, wiring surfaces, dev vs build |
+| `agent/instructions.md` | System prompt role, when to use tools, tone/guardrails vs tool logic |
+| `agent/tools/` | Path-derived identity, Zod/schema args, handler I/O, error handling the model sees |
+| `agent/connections/` | Reusable clients, env vars, sharing across tools, MCP vs custom |
+| `agent/channels/` | Entry points (HTTP, TUI, Slack…), how requests reach the agent |
+| `agent/skills/` | Bundled instructions the agent can load; difference from tools |
+| `agent/subagents/` | Delegation, when to split work across agents |
+| `agent/schedules/` | Cron/triggers, background runs without user messages |
+| `agent/hooks/` | Lifecycle extension points (before/after tool, etc. — per docs) |
+| `agent/sandbox/` | Isolated execution when tools need it |
+| `evals/` | How to measure agent quality over time |
+
+Only comment surfaces present in the brief; do not invent files just to teach unused concepts.
+
+### Tone and limits
+
+- Write for a developer new to eve, not new to programming.
+- Use complete sentences; 1–3 lines per comment block is fine, longer for file headers.
+- Explain **why** eve does something this way when the reason is framework-specific.
+- Do not comment obvious TypeScript (`const x = 1`) unless it encodes an eve convention.
+- Mock/stub code: comment **what would change** for a live integration and which env vars unlock it.
+
+### README teaching section
+
+Include:
+
+```markdown
+## How this agent is structured
+
+| File / folder | Eve surface | Start here if you want to learn… |
+|---------------|-------------|----------------------------------|
+| agent/agent.ts | core config | How an agent is defined |
+| agent/tools/… | tools | How the model calls your code |
+| … | … | … |
+```
 
 ---
 

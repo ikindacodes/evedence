@@ -1,6 +1,6 @@
 ---
 name: create-agent
-description: Guides a one-question-at-a-time design interview, captures alignment in agent/EVE-BRIEF.md, then scaffolds and implements a runnable eve agent. Use when the user wants to create a new eve agent, build an agent from scratch, or invokes /create-agent.
+description: Guides a one-question-at-a-time design interview, captures alignment in agent/EVE-BRIEF.md, then scaffolds and implements a runnable eve agent with verbose teaching comments. Use when the user wants to create a new eve agent, build an agent from scratch, or invokes /create-agent.
 ---
 
 # create-agent
@@ -63,6 +63,7 @@ Write `agent/EVE-BRIEF.md` using the template in [reference.md](reference.md#eve
 - If eve is not scaffolded yet, write the brief to a temp path or describe that it will land at `agent/EVE-BRIEF.md` after init — then place it there immediately after scaffold.
 - After writing, show the brief and ask for explicit confirmation before Phase 3.
 - Record any mock/stub fallback and the reason in the brief's data-source column.
+- Fill the **Teaching comments** section (which surfaces get annotated, primary "start here" files for the README table).
 
 ---
 
@@ -128,6 +129,20 @@ Minimum bar for every agent:
 
 Implement only surfaces listed in the brief. For each surface, read the matching page in `node_modules/eve/docs/` and follow patterns from the nearest existing agent in the repo when one exists.
 
+**Teaching comments (required):**
+
+Every file you create or substantially edit during scaffold + implementation must include **verbose, educational comments** that teach the user how eve works — not just what the line does. Treat the generated agent as a guided tutorial the user will read while running it.
+
+See [reference.md — Teaching comments](reference.md#teaching-comments) for the full checklist. At minimum:
+
+- **File header** on every `agent/**/*.ts` file: which eve surface this file belongs to, how eve discovers/loads it, and what role it plays in a turn.
+- **Section blocks** before each logical unit (imports, schema, handler, export): explain the eve concept (e.g. tool identity from path, `defineAgent` slots, channel request lifecycle).
+- **Inline comments** on eve-specific APIs, config keys, and conventions the user would not know from TypeScript alone — link to the matching doc page under `node_modules/eve/docs/` when helpful.
+- **`instructions.md`**: short callouts above each major section explaining how system instructions shape model behavior in eve.
+- **README**: a "How this agent is structured" section that maps files → eve surfaces and points to the most-commented files to read first.
+
+Do not strip comments eve `init` generated if they teach a concept. Prefer adding over removing. Skip comments only on truly obvious TypeScript (e.g. `import` of a local type). Never use placeholder comments like `// TODO: explain` — write the explanation.
+
 **Conventions:**
 
 - Always **eve**, never Eve
@@ -154,7 +169,7 @@ pnpm typecheck # if available
 pnpm build     # eve build
 ```
 
-Tell the user how to run `pnpm dev`, what to ask in the TUI, and how to exercise the agent over HTTP per the eve docs. Do not commit unless asked.
+Tell the user how to run `pnpm dev`, what to ask in the TUI, and how to exercise the agent over HTTP per the eve docs. Point them to the most-commented files as the learning path. Do not commit unless asked.
 
 ---
 
